@@ -2,7 +2,7 @@
 
 Curated list of awesome **free** (mostly open source) forensic analysis tools and resources.
 
-- [Awesome Forensics ](#awesome-forensics-)
+- Awesome Forensics
   - [Collections](#collections)
   - [Tools](#tools)
     - [Distributions](#distributions)
@@ -34,7 +34,6 @@ Curated list of awesome **free** (mostly open source) forensic analysis tools an
     - [Blogs](#blogs)
     - [Books](#books)
     - [File System Corpora](#file-system-corpora)
-    - [Twitter](#twitter)
     - [Other](#other)
     - [Labs](#labs)
   - [Related Awesome Lists](#related-awesome-lists)
@@ -45,7 +44,6 @@ Curated list of awesome **free** (mostly open source) forensic analysis tools an
 ## Collections
 
 - [AboutDFIR – The Definitive Compendium Project](https://aboutdfir.com) - Collection of forensic resources for learning and research. Offers lists of certifications, books, blogs, challenges and more
-- [DFIR.Training](https://www.dfir.training/) - Database of forensic resources focused on events, tools and more
 - :star: [ForensicArtifacts.com Artifact Repository](https://github.com/ForensicArtifacts/artifacts) - Machine-readable knowledge base of forensic artifacts
 
 ## Tools
@@ -108,7 +106,8 @@ Curated list of awesome **free** (mostly open source) forensic analysis tools an
 - [FastIR Collector](https://github.com/SekoiaLab/Fastir_Collector) - Collect artifacts on windows
 - [FireEye Memoryze](https://fireeye.market/apps/211368) - A free memory forensic software 
 - [LiME](https://github.com/504ensicsLabs/LiME) - Loadable Kernel Module (LKM), which allows the acquisition of volatile memory from Linux and Linux-based devices, formerly called DMD
-- [Magnet RAM Capture](https://www.magnetforensics.com/resources/magnet-ram-capture/) - A free imaging tool designed to capture the physical memory 
+- [Magnet RAM Capture](https://www.magnetforensics.com/resources/magnet-ram-capture/) - A free imaging tool designed to capture the physical memory
+- [SPECTR3](https://github.com/alpine-sec/SPECTR3) - Acquire, triage and investigate remote evidence via portable iSCSI readonly access
 - [unix_collector](https://github.com/op7ic/unix_collector) - A live forensic collection script for UNIX-like systems as a single script.
 - [Velociraptor](https://github.com/Velocidex/velociraptor) - Velociraptor is a tool for collecting host based state information using Velocidex Query Language (VQL) queries
 - [WinTriage](https://www.securizame.com/wintriage-the-triage-tool-for-windows-dfirers/) - Wintriage is a live response tool that extracts Windows artifacts. It must be executed with local or domain administrator privileges and recommended to be done from an external drive.
@@ -253,7 +252,6 @@ Curated list of awesome **free** (mostly open source) forensic analysis tools an
 ### CTFs and Challenges
 
 - [BelkaCTF](https://belkasoft.com/ctf) - CTFs by Belkasoft
-- [Champlain College DFIR CTF](https://champdfa-ccsc-sp20.ctfd.io)
 - [CyberDefenders](https://cyberdefenders.org/blueteam-ctf-challenges/?type=ctf) 
 - [DefCon CTFs](https://archive.ooo) - archive of DEF CON CTF challenges.
 - [Forensics CTFs](https://github.com/apsdehal/awesome-ctf/blob/master/README.md#forensics)
@@ -297,23 +295,6 @@ Curated list of awesome **free** (mostly open source) forensic analysis tools an
 - [Digital Forensics Tool Testing Images](https://sourceforge.net/projects/dftt/)
 - [The CFReDS Project](https://cfreds.nist.gov)
   - [Hacking Case (4.5 GB NTFS Image)](https://cfreds.nist.gov/Hacking_Case.html)
-
-### Twitter
-
-- [@4n6ist](https://twitter.com/4n6ist)
-- [@AppleExaminer](https://twitter.com/AppleExaminer) - Apple OS X & iOS Digital Forensics
-- [@carrier4n6](https://twitter.com/carrier4n6) - Brian Carrier, author of Autopsy and the Sleuth Kit
-- [@forensikblog](https://twitter.com/forensikblog) - Computer forensic geek
-- [@HECFBlog](https://twitter.com/HECFBlog) - SANS Certified Instructor
-- [@Hexacorn](https://twitter.com/Hexacorn) - DFIR+Malware
-- [@hiddenillusion](https://twitter.com/hiddenillusion)
-- [@iamevltwin](https://twitter.com/iamevltwin) - Mac Nerd, Forensic Analyst, Author & Instructor of SANS FOR518
-- [@jaredcatkinson](https://twitter.com/jaredcatkinson) - PowerShell Forensics
-- [@maridegrazia](https://twitter.com/maridegrazia) - Computer Forensics Examiner
-- [@sleuthkit](https://twitter.com/sleuthkit)
-- [@williballenthin](https://twitter.com/williballenthin)
-- [@XWaysGuide](https://twitter.com/XWaysGuide)
-- [@inginformatico](https://twitter.com/inginformatico) - DFIR analyst and enthusiast
 
 ### Other
 
