@@ -98,6 +98,7 @@ Curated list of awesome **free** (mostly open source) forensic analysis tools an
 ### Acquisition
 
 - [Acquire](https://github.com/fox-it/acquire) - Acquire is a tool to quickly gather forensic artifacts from disk images or a live system into a lightweight container
+- [ALEX](https://github.com/prosch88/ALEX) - Extract files from ADB devices on Windows, Linux and MacOS. Mostly a wrapper for adbutils.
 - [artifactcollector](https://github.com/forensicanalysis/artifactcollector) - A customizable agent to collect forensic artifacts on any Windows, macOS or Linux system
 - [ArtifactExtractor](https://github.com/Silv3rHorn/ArtifactExtractor) - Extract common Windows artifacts from source images and VSCs
 - [AVML](https://github.com/microsoft/avml) - A portable volatile memory acquisition tool for Linux
@@ -107,9 +108,12 @@ Curated list of awesome **free** (mostly open source) forensic analysis tools an
 - [FireEye Memoryze](https://fireeye.market/apps/211368) - A free memory forensic software
 - [FIT](https://github.com/fit-project/fit) - Forensic acquisition of web pages, emails, social media, etc.
 - [ForensicMiner](https://github.com/securityjoes/ForensicMiner) - A PowerShell-based DFIR automation tool, for artifact and evidence collection on Windows machines.
+- [Fuji](https://github.com/Lazza/Fuji/) - MacOS forensic acquisition made simple. It creates full file system copies or targeted collection of Mac computers.
+- [Hashment](https://github.com/hashment/yaffs2-forensic-tool) - Python forensic tool to analyze, dump, and recover deleted files from YAFFS2 partitions.
 - [LiME](https://github.com/504ensicsLabs/LiME) - Loadable Kernel Module (LKM), which allows the acquisition of volatile memory from Linux and Linux-based devices, formerly called DMD
 - [Magnet RAM Capture / DumpIt](https://www.magnetforensics.com/resources/magnet-dumpit-for-windows/) - A free imaging tool designed to capture the physical memory
 - [SPECTR3](https://github.com/alpine-sec/SPECTR3) - Acquire, triage and investigate remote evidence via portable iSCSI readonly access
+- [TriageHasher](https://github.com/FlipForensics/TriageHasher) - A flexible hashing tool designed for triage collections on Windows, Linux and MacOS. Only hash files with a given extension and location. 
 - [UFADE](https://github.com/prosch88/UFADE) - Extract files from iOS devices on Linux and MacOS. Mostly a wrapper for pymobiledevice3. Creates iTunes-style backups and advanced logical backups.
 - [unix_collector](https://github.com/op7ic/unix_collector) - A live forensic collection script for UNIX-like systems as a single script.
 - [Velociraptor](https://github.com/Velocidex/velociraptor) - Velociraptor is a tool for collecting host based state information using Velocidex Query Language (VQL) queries
@@ -145,6 +149,7 @@ Curated list of awesome **free** (mostly open source) forensic analysis tools an
 
 - [Kismet](https://github.com/kismetwireless/kismet) - A passive wireless sniffer
 - [NetworkMiner](https://www.netresec.com/?page=Networkminer) - Network Forensic Analysis Tool
+- [RustNet](https://github.com/domcyrus/rustnet) - A cross-platform network monitoring terminal UI providing real-time visibility into network connections
 - [Squey](https://squey.org) - Logs/PCAP visualization software designed to detect anomalies and weak signals in large amounts of data.
 - :star: [WireShark](https://www.wireshark.org/) - A network protocol analyzer
 
@@ -165,9 +170,10 @@ Curated list of awesome **free** (mostly open source) forensic analysis tools an
 
 - [MFT-Parsers](http://az4n6.blogspot.com/2015/09/whos-your-master-mft-parsers-reviewed.html) - Comparison of MFT-Parsers
 - [MFTEcmd](https://binaryforay.blogspot.com/2018/06/introducing-mftecmd.html) - MFT Parser by Eric Zimmerman
-- [MFTExtractor](https://github.com/aarsakian/MFTExtractor) - MFT-Parser
+- [MFTExtractor](ttps://github.com/aarsakian/FileSystemForensics) - MFT-Parser
 - [MFTMactime](https://github.com/kero99/mftmactime) - MFT and USN parser that allows direct extraction in filesystem timeline format (mactime), dump all resident files in the MFT in their original folder structure and run yara rules over them all.
 - [NTFS journal parser](http://strozfriedberg.github.io/ntfs-linker/)
+- [NTFSTool](https://github.com/thewhiteninja/ntfstool) - Complete NTFS forensics tool
 - [NTFS USN Journal parser](https://github.com/PoorBillionaire/USN-Journal-Parser)
 - [RecuperaBit](https://github.com/Lazza/RecuperaBit) - Reconstruct and recover NTFS data
 - [python-ntfs](https://github.com/williballenthin/python-ntfs) - NTFS analysis
@@ -243,6 +249,7 @@ Curated list of awesome **free** (mostly open source) forensic analysis tools an
 ### Metadata Forensics
 
 - [ExifTool](https://exiftool.org/) by Phil Harvey
+- [EXIF Editor](https://exifeditor.io/) In-browser, privacy first EXIF Viewer/Editor/Analysis tool (Zero Sign Up). Home to the The EXIF Guide, and The EXIF Quiz.
 - [FOCA](https://github.com/ElevenPaths/FOCA) - FOCA is a tool used mainly to find metadata and hidden information in the documents
 
 ### Steganography
@@ -264,7 +271,7 @@ Curated list of awesome **free** (mostly open source) forensic analysis tools an
 - [DefCon CTFs](https://archive.ooo) - archive of DEF CON CTF challenges.
 - [Forensics CTFs](https://github.com/apsdehal/awesome-ctf/blob/master/README.md#forensics)
 - [MagnetForensics CTF Challenge](https://www.magnetforensics.com/blog/magnet-weekly-ctf-challenge/)
-- [MalwareTech Challenges](https://www.malwaretech.com/challenges)
+- [MalwareTech Labs](https://malwaretech.com/labs/)
 - [MemLabs](https://github.com/stuxnet999/MemLabs)
 - [NW3C Chanllenges](https://nw3.ctfd.io)
 - [Precision Widgets of North Dakota Intrusion](https://betweentwodfirns.blogspot.com/2017/11/dfir-ctf-precision-widgets-of-north.html)
@@ -275,12 +282,12 @@ Curated list of awesome **free** (mostly open source) forensic analysis tools an
 ### Web
 
 - [ForensicsFocus](https://www.forensicfocus.com/)
-- [SANS Digital Forensics](https://www.sans.org/digital-forensics-incident-response/)
+- [SANS Digital Forensics](https://www.sans.org/cybersecurity-focus-areas/digital-forensics-incident-response)
 
 ### Blogs
 
 - [Netresec](https://www.netresec.com/index.ashx?page=Blog)
-- [SANS Forensics Blog](https://www.sans.org/blog/?focus-area=digital-forensics)
+- [SANS Forensics Blog](https://www.sans.org/blog?focus-area=digital-forensics)
 - [SecurityAffairs](https://securityaffairs.com/) - blog by Pierluigi Paganini
 - [This Week In 4n6](https://thisweekin4n6.com/) - Weekly updates for forensics
 - [Zena Forensics](https://blog.digital-forensics.it/)
@@ -290,21 +297,20 @@ Curated list of awesome **free** (mostly open source) forensic analysis tools an
 *more at [Recommended Readings](http://dfir.org/?q=node/8) by Andrew Case*
 
 - [Network Forensics: Tracking Hackers through Cyberspace](https://www.pearson.com/en-us/subject-catalog/p/Davidoff-Network-Forensics-Tracking-Hackers-through-Cyberspace/P200000009228) - Learn to recognize hackers’ tracks and uncover network-based evidence
-- [The Art of Memory Forensics](https://www.memoryanalysis.net/amf) - Detecting Malware and Threats in Windows, Linux, and Mac Memory
+- [The Art of Memory Forensics](https://memoryanalysis.net/amf/) - Detecting Malware and Threats in Windows, Linux, and Mac Memory
 - [The Practice of Network Security Monitoring](https://nostarch.com/nsm) - Understanding Incident Detection and Response
 
 ### File System Corpora
 
 - [Digital Forensic Challenge Images](https://www.ashemery.com/dfir.html) - Two DFIR challenges with images
 - [Digital Forensics Tool Testing Images](https://sourceforge.net/projects/dftt/)
-- [The CFReDS Project](https://cfreds.nist.gov)
-  - [Hacking Case (4.5 GB NTFS Image)](https://cfreds.nist.gov/Hacking_Case.html)
 
 ### Other
 
 - [/r/computerforensics/](https://www.reddit.com/r/computerforensics/) - Subreddit for computer forensics
+- [CybersecurityGuide – Digital Forensics Careers](https://cybersecurityguide.org/careers/digital-forensics/) - Guide on skills, certs, and career paths in cyber forensics.
 - [ForensicPosters](https://github.com/Invoke-IR/ForensicPosters) - Posters of file system structures
-- [SANS Posters](https://www.sans.org/posters/) - Free posters provided by SANS
+- [SANS Posters](https://www.sans.org/posters) - Free posters provided by SANS
 
 ### Labs
 
